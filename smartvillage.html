@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Village Dashboard</title>
+  <link rel="stylesheet" href="sv.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌾 Smart Village Dashboard</h1>
+  </header>
+
+  <main class="dashboard">
+   <div class="card" id="electricity">
+  <h2>🔌 Electricity Update</h2>
+  <p id="electricity-status">Power Supply: ✔️ Stable</p>
+  <strong>Live Feed:</strong>
+  <div class="iframe-card-wrapper">
+    <iframe 
+      src="https://docs.google.com/document/d/1KjZpw-f7B9itD58wMme1cTJ6tZnbyB6R5kkhXC8tK7w/preview" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+    <div class="card" id="water">
+      <h2>💧 Water Supply Update</h2>
+      <p id="water-status">Monitoring village water levels, quality, and distribution to ensure reliable daily access.</p>
+    <button onclick="openWastePlatform()">View Platform</button> <br> <br>
+    <p>जल आपूर्ति अपडेट जल्द आ रहा है। इस सिस्टम में पानी चालू और बंद होने का समय, पानी की गुणवत्ता, मात्रा और सही वितरण को ट्रैक किया जाएगा ताकि सभी गाँववासियों को सुरक्षित और पर्याप्त पानी उपलब्ध हो सके।</p>
+    </div>
+
+
+    <div class="card" id="waste">
+      <h2>♻️ Waste Management & Recycling</h2>
+      <p>Track garbage collection, recycling progress, and awareness campaigns.</p>
+      <button onclick="openWastePlatform()">View Platform</button> <br> <br>
+      <p>यह सिस्टम जल्द आ रहा है!
+        कचरा संग्रहण, रिसाइक्लिंग की प्रगति और जागरूकता अभियानों को प्रभावी ढंग से ट्रैक करेगा। इससे पर्यावरण स्वच्छ रहेगा, संसाधनों का पुनः उपयोग बढ़ेगा और गांव में सफाई और स्वस्थ जीवनशैली को प्रोत्साहन मिलेगा। तैयार रहें!
+</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Shubham Pr Mall. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function openMarketplace() {
+      alert("Redirecting to Marketplace...");
+    }
+
+    function openWastePlatform() {
+      alert("Redirecting to Waste Management Platform...");
+    }
+  </script>
+</body>
+</html>
